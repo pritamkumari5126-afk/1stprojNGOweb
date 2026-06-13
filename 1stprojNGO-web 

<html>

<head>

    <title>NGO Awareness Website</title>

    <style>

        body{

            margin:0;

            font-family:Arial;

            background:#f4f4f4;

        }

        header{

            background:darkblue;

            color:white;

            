@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>NGO Awareness Website</title>
+
+    <style>
+
+        body{
+
+            margin:0;
+
+            font-family:Arial;
+
+            background:#f4f4f4;
+
+        }
+
+        header{
+
+            background:darkblue;
+
+            color:white;
+
+            padding:20px;
+
+            text-align:center;
+
+        }
+
+        nav a{
+
+            color:white;
+
+            margin:15px;
+
+            text-decoration:none;
+
+            font-size:18px;
+
+        }
+
+        section{
+
+            padding:40px;
+
+            text-align:center;
+
+        }
+
+        .projects{
+
+            display:flex;
+
+            justify-content:center;
+
+            gap:20px;
+
+            flex-wrap:wrap;
+
+        }    .card{
+
+            background:white;
+
+            padding:20px;
+
+            width:250px;
+
+            border-radius:10px;
+
+            box-shadow:0px 0px 10px gray;
+
+        }
+
+        .gallery img{
+
+            width:250px;
+
+            height:180px;
+
+            margin:10px;
+
+            border-radius:10px;
+
+       }
+        .button{
+
+            background:darkblue;
+
+            color:white;
+
+            padding:15px 25px;
+
+            border:none;
+
+            border-radius:10px;
+
+            font-size:18px;
+
+            cursor:pointer;
+
+        }
+
+        button:hover{
+
+            background:green;
+
+        }
+
+            background:black;
+
+            color:white;
+
+            text-align:center;
+
+            padding:20px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>Helping Hands NGO</h1>
+
+        <nav>
+
+            <a href="#">Home</a>
+
+            <a href="#">About</a>
+
+            <a href="#">Projects</a>
+
+            <a href="#">Gallery</a>
+
+            <a href="#">Contact</a>
+
+        </nav>
+
+    </header>
+
+    <!-- About NGO -->
+
+    <section>
+
+        <h2>About Our NGO</h2>
+ </p>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section>
+
+        <h2>Our Projects</h2>
+
+        <div class="projects">
+
+            <div class="card">
+
+                <h3>Food Donation</h3>
+
+                <p>Providing food for needy people.     .</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Education Support</h3>
+
+                <p>Helping children with free education.</p>
+
+
+            <div class="card">
+
+                <h3>Tree Plantation</h3>
+
+                <p>Making the environment green and clean.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="gallery">
+
+        <h2>Gallery</h2>
+
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1000" alt="image">
+
+        <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000" alt="image">
+
+        <img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?q=80&w=1000" alt="image">
+
+    </section>
+
+    <!-- Join Us -->
+
+    <section>
+
+        <h2>Become a Volunteer</h2>
+
+        <button onclick="showMessage()">
+
+            Join Us
+
+        </button>
+
+    </section>
+<footer>
+
+        <p>
+
+            © 2026 Helping Hands NGO | All Rights Reserved
+
+        </p>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function showMessage(){
+
+            alert("Thank You For Supporting Our NGO!");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
+
